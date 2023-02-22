@@ -1,0 +1,25 @@
+run:
+  issues-exit-code: 1
+  skip-dirs:
+  - docs
+
+linter-settings:
+  lll:
+    line-length: 200
+
+linters:
+  disable-all: true
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - revive
+    - goconst
+    # - goimports
+    - varcheck
+    - deadcode
+    - misspell
+    # - gocyclo
+
+issues:
+  exclude-use-default: false

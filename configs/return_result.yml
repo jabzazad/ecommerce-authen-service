@@ -1,0 +1,402 @@
+json_duplicate_or_invalid_format:
+  code: 1000
+  localization:
+    en: "Json field duplicate or invalid format. Please try again"
+    th: "Json มีคีย์ซ้ำกันหรือรูปแบบฟอร์เมตผิด กรุณาลองใหม่อีกครั้ง"
+
+invalid_username_or_password:
+  code: 1001
+  localization:
+    en: "Invalid identificationNumber or password Please try again."
+    th: "รหัสพนักงานหรือรหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_citizen_id:
+  code: 1002
+  localization:
+    en: "Invalid citizen id. Please try again"
+    th: "รหัสบัตรประชาชนไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_tax_id:
+  code: 1003
+  localization:
+    en: "Invalid tax id. Please try again"
+    th: "เลขประจำตัวผู้เสียภาษีไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_password:
+  code: 1004
+  localization:
+    en: "Sorry, your password is incorrect. Please try again"
+    th: "ขออภัย รหัสผ่านของคุณไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_phone_number:
+  code: 1005
+  localization:
+    en: "Invalid phone number. Please try again"
+    th: "เบอร์โทรศัพท์ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_email:
+  code: 1006
+  localization:
+    en: "Invalid email. Please try again"
+    th: "อีเมลไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_reserved_email:
+  code: 1007
+  localization:
+    en: "Invalid reserved email. Please try again"
+    th: "อีเมลสำรองไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_token:
+  code: 1008
+  localization:
+    en: "Sorry invalid token. Please try again"
+    th: "โทเค็นไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_permission_role:
+  code: 1009
+  localization:
+    en: "Sorry, Your permission cannot do the transaction. Please try again"
+    th: "ขออภัย สิทธิ์ของคุณไม่สามารถทำรายการดังกล่าวได้ กรุณาลองใหม่อีกครั้ง"
+
+citizen_id_already_exists:
+  code: 1010
+  localization:
+    en: "Citizen ID already exists. Please try again"
+    th: "เลขบัตรประชาชนนี้มีอยู่แล้วในระบบ กรุณาลองใหม่อีกครั้ง"
+
+tax_id_already_exists:
+  code: 1011
+  localization:
+    en: "Tax ID already exists. Please try again"
+    th: "เลขบัตรประจำตัวผู้เสียภาษีนี้มีอยู่แล้วในระบบ กรุณาลองใหม่อีกครั้ง"
+
+phone_number_already_exists:
+  code: 1011
+  localization:
+    en: "This phone number already exists. Please try again"
+    th: "มีเบอร์นี้อยู่ในระบบอยู่แล้ว กรุณาลองใหม่อีกครั้ง"
+
+email_already_exists:
+  code: 1012
+  localization:
+    en: "This email already exists. Please try again"
+    th: "มีอีเมลนี้อยู่ในระบบอยู่แล้ว กรุณาลองใหม่อีกครั้ง"
+
+reserved_email_already_exists:
+  code: 1013
+  localization:
+    en: "This email already exists. Please try again"
+    th: "มีอีเมลนี้อยู่ในระบบอยู่แล้ว กรุณาลองใหม่อีกครั้ง"
+
+missing_occupation:
+  code: 1014
+  localization:
+    en: "Your occupation is missing. Please enter your occupation"
+    th: "อาชีพของท่านไม่ได้ระบุ กรุณากรอกข้อมูลอาชีพของท่านให้เรียบร้อย"
+
+missing_company_name:
+  code: 1015
+  localization:
+    en: "Your company name is missing. Please enter your company name"
+    th: "ชื่อบริษัทของท่านไม่ได้ระบุ กรุณากรอกข้อมูลชื่อบริษัทของท่านให้เรียบร้อย"
+
+missing_email:
+  code: 1014
+  localization:
+    en: "Your email is missing. Please enter your email"
+    th: "อีเมลของท่านไม่ได้ระบุ กรุณากรอกข้อมูลอีเมลของท่านให้เรียบร้อย"
+
+invalid_prefix_path_upload:
+  code: 1015
+  localization:
+    en: "Prefix path for the upload file is invalid. Please try again."
+    th: "พาร์ทไฟล์สำหรับอัพโหลดไฟล์ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_maximum_size:
+  code: 1016
+  localization:
+    en: "File upload have a maximum limit. Please try again."
+    th: "ไฟล์ที่อัพโหลด มีขนาดเกินกำหนด กรุณาลองใหม่อีกครั้ง"
+
+invalid_type_image_file:
+  code: 1017
+  localization:
+    en: "Sorry, can't to upload file because type file not type image."
+    th: "ขออภัย ไม่สามารถอัพโหลดไฟล์ได้ เนื่องจากไฟล์ไม่ใช่รูปภาพ"
+
+upload_file_fail:
+  code: 1018
+  localization:
+    en: "Upload file fail. Please try again."
+    th: "อัพโหลดไฟล์ไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+
+queue_full:
+  code: 1019
+  localization:
+    en: "Sorry, this period time was full. Please try again."
+    th: "ขออภัย ช่วงเวลาที่ท่านจองได้เต็มแล้ว กรุณาลองใหม่อีกครั้ง"
+
+invalid_user_id:
+  code: 1020
+  localization:
+    en: "Sorry, user id is invalid. Please try again."
+    th: "ขออภัย ไอดีของสมาชิกไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_code_or_expired:
+  code: 1021
+  localization:
+    en: "Sorry, invalid code or expired. Please try again"
+    th: "ขออภัย รหัสยืนยันไม่ถูกต้องหรือหมดอายุ กรุณาลองใหม่อีกครั้ง"
+
+already_verified:
+  code: 1022
+  localization:
+    en: "Sorry, this code already verified"
+    th: "ขออภัย รหัสยืนยันได้รับการยืนยันหรือใช้งานไปแล้ว"
+
+invalid_address_type:
+  code: 1023
+  localization:
+    en: "Sorry, address type is invalid, Please try again."
+    th: "ขออภัย ประเภทที่อยู่ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+username_not_found:
+  code: 1024
+  localization:
+    en: "Sorry, username doesn't exists. Please try again."
+    th: "ขออภัย รหัสสมาชิกของท่านไม่พบในระบบ กรุณาลองใหม่อีกครั้ง"
+
+invalid_express_type:
+  code: 1025
+  localization:
+    en: "Sorry, express type is invalid, Please try again."
+    th: "ขออภัย ประเภทการจัดส่งไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_secret_key:
+  code: 1026
+  localization:
+    en: "Sorry, secret key is invalid, Please try again."
+    th: "ขออภัย คีย์ลับไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_identification_number:
+  code: 1027
+  localization:
+    en: "Sorry, citizen id or tax id is invalid, Please try again."
+    th: "ขออภัย บัตรประชาชนหรือเลขประจำตัวผู้เสียภาษีไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+password_not_match:
+  code: 1028
+  localization:
+    en: "Sorry, your password and confirm password is not match"
+    th: "ขออภัย รหัสผ่านและยืนยันรหัสผ่านของท่านไม่ตรงกัน กรุณาลองใหม่อีกครั้ง"
+
+username_already_exists:
+  code: 1029
+  localization:
+    en: "This username already exists. Please try again"
+    th: "มีชื่อผู้ใช้นี้อยู่ในระบบอยู่แล้ว กรุณาลองใหม่อีกครั้ง"
+
+reach_limit:
+  code: 1030
+  localization:
+    en: "Sorry, your cannot create more than your package if you want to continue. Please upgrade your package."
+    th: "ขออภัย คุณไม่สามารถสร้างเกินกว่าจำนวนของแพ็กเกจ ถ้าต้องการเพิ่มกรุณาอัปเกรดแพ็กเกจของท่าน"
+
+duplicate_sku:
+  code: 1031
+  localization:
+    en: "Sorry, you already have this sku in system."
+    th: "ขออภัย คุณมีรหัสสินค้านี้อยู่แล้วในระบบ กรุณาตรวจสอบอีกครั้ง."
+
+invalid_otp:
+  code: 1032
+  localization:
+    en: "Sorry , your OTP is invalid."
+    th: "ขอภัย OTP ของคุณไม่ถูกต้อง"
+
+already_have_this_user:
+  code: 1033
+  localization:
+    en: "Sorry, already have this user in system."
+    th: "ขอภัย มีผู้ใช้นี้อยู่ในระบบ"
+
+still_process:
+  code: 1034
+  localization:
+    en: "Sorry, your request is not done."
+    th: "ขอภัย การร้องขอของคุณยังไม่เสร็จสิ้น"
+
+current_version:
+  code: 1035
+  localization:
+    en: "Your application is now up to date."
+    th: "แอพพลิเคชั่นของคุณเป็นเวอร์ชันล่าสุดแล้ว"    
+
+coupon_cannot_used:
+  code: 1036
+  localization:
+    en: "Sorry, your coupon cannot be used."
+    th: "ขออภัย คูปองของท่านไม่สามารถใช้งานได้"
+
+coupon_already_used:
+  code: 1037
+  localization:
+    en: "Sorry, your coupon already used."
+    th: "ขออภัย คูปองของท่านถูกใช้งานไปแล้ว"
+
+coupon_expired:
+  code: 1038
+  localization:
+    en: "Sorry, your coupon are already expired."
+    th: "ขออภัย คูปองของท่านถูกหมดอายุการใช้งานแล้ว"
+  
+already_have_reference:
+  code: 1039
+  localization:
+    en: "Sorry, you are generate reference code already."
+    th: "ขออภัย ท่านมีรหัสเชิญชวนแล้ว"
+
+you_cannot_use_own_reference_code:
+  code: 1040
+  localization:
+    en: "Sorry, you cannot use your reference code."
+    th: "ขออภัย ท่านไม่สามารถใช้รหัสเชิญชวนของตัวเองได้"
+  
+already_used_reference:
+  code: 1041
+  localization:
+    en: "Sorry, you already redeem reference code."
+    th: "ขออภัย ท่านได้ใช้งานรหัสเชิญชวนไปแล้ว"
+
+already_confirm:
+  code: 1042
+  localization:
+    en: "Sorry, you already confirm this transaction."
+    th: "ขออภัย ท่านได้ยืนยันการทำรายการแล้ว"
+
+invalid_secret:
+  code: 1043
+  localization:
+    en: "Sorry, you connection is not correct."
+    th: "ขออภัย รหัสเชื่อมต่อไม่ถูกต้อง"
+
+blocked_user:
+  code: 1044
+  localization:
+    en: "Sorry, you are blocked by server.Please try again later."
+    th: "ขออภัย ท่านถูกระงับการใช้งานจากระบบ กรุณาลองใหม่อีกครั้งในภายหลัง"
+
+invalid_facebook_token:
+  code: 1045
+  localization:
+    en: "Invalid facebook token. Please try again."
+    th: "เฟสบุ๊คโคเท็นผิด กรุณาลองใหม่อีกครั้ง"
+
+invalid_google_token:
+  code: 1046
+  localization:
+    en: "Invalid google token. Please try again"
+    th: "รหัสกุเกิ้ลโทเค็นไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+already_have_order_nubmer:
+  code: 1047
+  localization:
+    en: "Sorry, your order number already have in system.."
+    th: "ขออภัย ใบออเดอร์นี้มีอยู่ในระบบแล้ว"
+
+
+please_upload_order:
+  code: 1048
+  localization:
+    en: "Please upload order."
+    th: "กรุณาอัพโหลดใบสั่งซื้อ"
+
+please_upload_product:
+  code: 1049
+  localization:
+    en: "Please upload product."
+    th: "กรุณาอัพโหลดใบสินค้า"
+
+reach_maximum_upload:
+  code: 1050
+  localization:
+    en: "Sorry, you cannot upload more than 1000 row."
+    th: "ขออภัย ท่านไม่สามารถอัพโหลดเกินกว่า 1000 แถว ต่อใบอัพโหลด"
+
+cannot_set_hlww:
+  code: 1051
+  localization:
+    en: "Sorry, you cannot set height,length,width or weight to negative."
+    th: "ขออภัย ท่านไม่สามารถตั้งค่า กว้าง ยาว สูง หรือน้ำหนักเป็นค่าลบได้"
+
+please_contact_support:
+  code: 1052
+  localization:
+    en: "Sorry, please contact support and tell them your order number."
+    th: "ขออภัย กรุณาติดต่อฝ่ายสนับสนุน โดยแจ้งรหัสออเดอร์นี้"
+
+please_give_more_address:
+  code: 1053
+  localization:
+    en: "Please fill all address."
+    th: "กรุณาใส่ที่อยู่ให้ครบถ้วน"
+
+
+not_found_email_in_system:
+  code: 404
+  localization:
+    en: "Sorry we are not found your email in system."
+    th: "ไม่พบบัญชีอีเมลของท่านในระบบ"
+
+login_again:
+  code: 1054
+  localization:
+    en: "Please your session is expired. Please login again."
+    th: "การเชื่อมต่อของท่านหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง"
+
+please_change_password:
+  code: 1055
+  localization:
+    en: "Please change new password every 90 day."
+    th: "กรุณาเปลี่ยนรหัสผ่าน ทุกๆ 90 วัน"
+
+already_used_last_password:
+  code: 1056
+  localization:
+    en: "Sorry, your new password is already.Please change new password"
+    th: "ขออภัย รหัสผ่านของท่านเคยถูกใช้งานแล้ว กรุณาเปลี่ยนรหัสผ่านใหม่"
+
+
+# These are what we response to our internal services
+internal:
+  success:
+    code: 200
+    localization:
+      en: "Success"
+      th: "สำเร็จ"
+
+  bad_request:
+    code: 400
+    localization:
+      en: "System cannot process this request at the moment. Please try again later"
+      th: "ขออภัย คำร้องขอของคุณเกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง"
+
+  connection_error:
+    code: 500
+    localization:
+      en: "Connection error. Please try again"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+
+  database_not_found:
+    code: 404
+    localization:
+      en: "Database not found. Please try again"
+      th: "ขออภัย ไม่พบข้อมูลในระบบ กรุณาลองใหม่อีกครั้ง"
+
+  unauthorized:
+    code: 401
+    localization:
+      en: "this request at the moment. Please try again later"
+      th: "ขออภัย ระบบไม่อนุญาตให้คุณเข้าถึงการร้องขอได้ กรุณาลองใหม่อีกครั้ง"
+
+      
