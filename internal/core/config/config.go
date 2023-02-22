@@ -85,14 +85,6 @@ type Configs struct {
 		Schemes     []string `mapstructure:"SCHEMES"`
 		Enable      bool     `mapstructure:"ENABLE"`
 	} `mapstructure:"SWAGGER"`
-	Storage struct {
-		BucketName            string `mapstructure:"BUCKET_NAME"`
-		BaseURL               string `mapstructure:"BASE_URL"`
-		Region                string `mapstructure:"REGION"`
-		Access                string `mapstructure:"ACCESS"`
-		Secret                string `mapstructure:"SECRET"`
-		ServiceAccountKeyPath string `mapstructure:"SERVICE_ACCOUNT_KEY_PATH"`
-	} `mapstructure:"STORAGE"`
 	Redis struct {
 		Host     string `mapstructure:"HOST"`
 		Port     int    `mapstructure:"PORT"`

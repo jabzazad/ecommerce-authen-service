@@ -13,13 +13,6 @@ HTTP_SERVER:
   WRITE_TIMEOUT: 10s
   IDLE_TIMEOUT: 120s
 
-STORAGE:
-  BUCKET_NAME: "ecommerce-authens"
-  REGION: ""
-  BASE_URL: "https://localhost:9000"
-  ACCESS: "minioadmin"
-  SECRET: "minioadmin"
-
 POSTGRE_SQL:
   HOST: "localhost"
   USERNAME: "root"
