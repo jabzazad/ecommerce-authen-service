@@ -13,3 +13,8 @@ $ swag init
 3. Run `go run main.go`
 
 mockgen -package=repositories -source={absolutepath} -destination=mock_config_repo.go
+
+# Diagram micro service
+This is diagram idea support kong or using without kong api
+<img src="ecommerce-diagram.png"  />
+<img src="ecommerce-micro-diagram.png" />
