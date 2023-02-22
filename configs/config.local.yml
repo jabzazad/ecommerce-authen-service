@@ -53,4 +53,4 @@ JWT:
 USER:
   URL: "https://localhost:8001/api/v1"
   PATH:
-    Profile: "/profile"
+    Profile: "/user"
